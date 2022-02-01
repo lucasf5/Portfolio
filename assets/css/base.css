@@ -23,6 +23,7 @@ li, a{
 header{
     background: url(../img/mesh.png) repeat-x;
     background-size: cover;
+    background-attachment: fixed;
 
     animation: 50s para infinite linear;
     width: 100vw;

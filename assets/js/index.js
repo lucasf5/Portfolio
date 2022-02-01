@@ -50,3 +50,15 @@ for (let i = 0; i < link.length; i++){
         imagem[i].classList.toggle("jobs__Partes-descricao-imagem-transform")
     })
 }
+
+const skils = document.querySelectorAll(".skils__imagem")
+const descricao = document.querySelectorAll(".skils__imagem-descricao")
+
+for (let i = 0; i < link.length; i++) {
+    skils[i].addEventListener("click", function myScript() {
+        descricao[i].classList.toggle("skils__imagem-descricao-transform")
+    })
+    // skils[i].addEventListener("click", function myScript() {
+    //     descricao[i].classList.toggle("skils__imagem-descricao-transform")
+    // })
+}
