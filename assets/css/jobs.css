@@ -1,0 +1,69 @@
+/* JOBS */
+.jobs{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sora', sans-serif;
+    color: aliceblue;
+    width: 100vw;
+    background: black;
+    background-image: url(../img/bg-hero.svg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: 50s para infinite linear;
+    box-shadow: 0px -10px 10px rgba(255, 255, 255, 0.5);
+    color: aliceblue;
+}
+.jobs__Descricao{
+    border-bottom: 1px solid gray;
+}
+.jobs__Descricao-titulo{
+    color: #2DC7ED;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.jobs__Descricao-descricao{
+    color: inherit;
+    font-size: 3rem;
+    margin: 1rem 0 3rem 2rem;
+}
+
+.jobs__Partes{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 5rem;
+    font-family: 'Saira', sans-serif;
+    
+}
+.jobs__Partes-titulo{
+    margin-right: 3rem;
+    color: #5D5E60;
+}
+.jobs__Partes-descricao{
+    color: inherit;
+    font-size: 2rem;
+}
+.jobs__Partes-descricao-imagem{
+    position: absolute;
+    width: 0;
+    height: 0;
+    transform: scale(1);
+    transition: 2s all;
+}
+.jobs__Partes-descricao-imagem-transform{
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2) rotate3d(10, 120, 20, 360deg);
+    transition: 2s all;
+    /* right: -500px; */
+}
+.black{
+    color: black;
+    background: aliceblue;
+    background-image: url(../img/bg-hero.svg);
+    background-size: cover;
+}

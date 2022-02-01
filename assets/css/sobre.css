@@ -1,0 +1,93 @@
+.Sobre{
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Sora', sans-serif;
+    color: aliceblue;
+    background: black;
+    background-image: url(../img/svg-lines.svg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    box-shadow: 0px -10px 10px rgba(255, 255, 255, 0.5);
+
+    width: 100vw;
+
+    animation: 50s para infinite linear;
+}
+.Sobre__Descricao{
+    border-bottom: 1px solid gray;
+    width: 60vw;
+}
+.Sobre__Descricao-titulo{
+    color: #2DC7ED;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.Sobre__Descricao-descricao{
+    color: inherit;
+    font-size: 3rem;
+    margin: 1rem 0 3rem 2rem;
+}
+.Sobre__Textos{
+    margin-left: 3rem;
+    color: #5D5E60;
+}
+.Sobre__Textos-paragrafo{
+    padding: 1rem;
+}
+
+
+/* redes */
+.redes{
+    flex-grow: 1;
+    padding: 2rem;
+}
+.redes-emojis-a{
+    width: 40px;
+    height: 40px;
+}
+.redes-emojis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.redes-emojis-twitter{
+    margin: 0;
+    animation: mudar 5s infinite alternate;
+}
+.redes-emojis-linkedin{
+    margin: 0;
+    animation: mudar 5.5s infinite alternate;
+}
+.redes-emojis-github{
+    margin: 0;
+    animation: mudar 6s infinite alternate;
+}
+.redes-emojis-wpp{
+    margin: 0;
+    animation: mudar 6.5s infinite alternate;
+}
+.redes-emojis-insta{
+    margin: 0;
+    animation: mudar 7s infinite alternate;
+}
+
+@keyframes mudar {
+    to{
+        margin-left: 0;
+    }
+    from{
+        transform: scale(1.5) rotate3d(10, 20, 10, 360deg);
+        transition: 3s all;
+    }
+}
+
+.redes-emojis-twitter:hover, .redes-emojis-linkedin:hover, .redes-emojis-github:hover, 
+.redes-emojis-wpp:hover,.redes-emojis-insta:hover {
+    transform: scale(1.5) rotate3d(10, 10, 10, 360deg);
+    transition: 3s all;
+}
+
