@@ -21,11 +21,11 @@ li, a{
     list-style-type: none;
 }
 header{
-    background: url(../img/mesh.png) repeat-x;
+    background: url(../img/tecnologias/pawel-czerwinski-S2iPI7keCCc-unsplash.jpg) repeat-x;
     background-size: cover;
     background-attachment: fixed;
 
-    animation: 50s para infinite linear;
+    /* animation: 50s para infinite linear; */
     width: 100vw;
     height: 100vh;
 }
@@ -34,6 +34,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+}
+.cabecalho_PrimeirosLinks-a:hover{
+    border-bottom: 1px solid white;
 }
 .cabecalho_PrimeirosLinks-a:nth-child(2n){
     margin-left: 2rem;

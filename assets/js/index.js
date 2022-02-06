@@ -58,9 +58,7 @@ for (let i = 0; i < link.length; i++) {
     skils[i].addEventListener("click", function myScript() {
         descricao[i].classList.toggle("skils__imagem-descricao-transform")
     })
-    // skils[i].addEventListener("click", function myScript() {
-    //     descricao[i].classList.toggle("skils__imagem-descricao-transform")
-    // })
+
 }
 
 // MENU SUSPENSO
@@ -70,3 +68,13 @@ const menu = document.querySelector('.menu-suspenso')
 botao_menu.addEventListener('click', () => {
     menu.classList.toggle('displayNone')
 })
+
+// TECLAS
+const audio = document.querySelector('.som')
+
+for (let i = 0; i < skils.length; i++) {
+    skils[i].addEventListener("mouseover", () => {
+        audio.play()
+    })
+
+}

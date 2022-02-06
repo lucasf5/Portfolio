@@ -32,14 +32,13 @@
 .skils__imagem{
 
     filter:grayscale(0);
-    transform: rotate3d(0,0,0,0deg);
+    scale: 1;
     position: relative;
-    /* animation: navegacao 10s infinite alternate; */
 }
 
 .skils__imagem:hover{
     filter:grayscale(0);
-    box-shadow: inset 1px 1px 2px white,5px 5px 5px white;
+    box-shadow: 5px 5px 5px #2DC7ED;
     /* transform:  rotate3d(0, 1, 0, 360deg); */
     cursor: pointer;
     transition: 0.5s all;
@@ -62,3 +61,4 @@
     transition: 2s all;
     /* right: -500px; */
 }
+

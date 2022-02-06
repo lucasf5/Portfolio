@@ -10,6 +10,7 @@
     .Principal__Textos-h3-p{
         left: 0;
         text-align: center;
+        
     }
     .Principal__Informacao{
         align-items: center;
@@ -61,5 +62,10 @@
     }
     .imagem-sobre{
         width: 100%
+    }
+}
+@media (max-width: 500px){
+    .Principal__Textos-h3-p{
+        font-size: 1.8rem;
     }
 }
