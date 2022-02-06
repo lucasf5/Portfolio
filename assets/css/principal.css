@@ -67,3 +67,6 @@
     height: 22px;
     transition: 1s all;
 }
+.displayNone{
+    display: none;
+}

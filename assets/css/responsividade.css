@@ -1,0 +1,50 @@
+@media (min-width: 0) and (max-width: 800px){
+
+    .Principal{
+        flex-direction: column;
+    }
+    .Principal__Textos{
+        align-items: center;
+        margin-left: 0;
+    }
+    .Principal__Textos-h3-p{
+        left: 0;
+        text-align: center;
+    }
+    .Principal__Informacao{
+        align-items: center;
+        width: 100%;
+    }
+    .Principal__Textos-h1{
+        font-size: 3rem;
+    }
+    .Principal__Informacao-h2 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .Principal__Informacao-h4{
+        margin-left: 1rem;
+    }
+    .cabecalho_Imagens{
+        display: flex;
+    }
+    .Principal__Informacao-localizacao{
+        margin-left: 0;
+        align-items: center;
+    }
+    .pin img{
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+    }
+    .cabecalho_PrimeirosLinks-li{
+        display: none;
+    }
+    .cabecalho_Imagens{
+        margin-right: 5rem;
+    }
+    .menu-botao{
+        cursor: pointer;
+        display: block;
+    }
+}

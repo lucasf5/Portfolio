@@ -62,3 +62,11 @@ for (let i = 0; i < link.length; i++) {
     //     descricao[i].classList.toggle("skils__imagem-descricao-transform")
     // })
 }
+
+// MENU SUSPENSO
+const botao_menu = document.querySelector('.menu-botao')
+const menu = document.querySelector('.menu-suspenso')
+
+botao_menu.addEventListener('click', () => {
+    menu.classList.toggle('displayNone')
+})

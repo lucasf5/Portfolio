@@ -1,0 +1,28 @@
+.menu-botao{
+    width: 48px;
+    height: 48px;
+    background-color: RGB(5, 61, 60);
+    display: none;
+}
+.menu-suspenso{
+    position: absolute;
+    top: 6rem;
+    width: 40vw;
+    height: 30vh;
+    background-color: RGB(5, 61, 60);
+    padding-top: 2rem;
+    z-index: 1;
+    
+}
+.menu-suspenso--link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    z-index: 1;
+}
+.menu-suspenso--link a{
+    color: white;
+    font-family: 'Sora', sans-serif;
+}
