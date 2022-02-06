@@ -3,6 +3,7 @@
     height: 48px;
     background-color: RGB(5, 61, 60);
     display: none;
+    border-radius: 30px;
 }
 .menu-suspenso{
     position: absolute;

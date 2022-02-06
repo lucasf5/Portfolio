@@ -36,7 +36,7 @@ header{
     padding: 2rem;
 }
 .cabecalho_PrimeirosLinks-a:nth-child(2n){
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 .cabecalho_PrimeirosLinks-a{
     color: #FAFCFC;

@@ -47,4 +47,16 @@
         cursor: pointer;
         display: block;
     }
+    .Sobre{
+        flex-direction: column;
+    }
+    .Sobre__Descricao{
+        width: 100%;
+    }
+    .redes-emojis{
+        flex-direction: row;
+    }
+    .Sobre__Descricao-descricao{
+        margin: 1rem 0 1rem 2rem;
+    }
 }
