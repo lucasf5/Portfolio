@@ -5,11 +5,19 @@
     justify-content: center;
     gap: 1rem;
     box-shadow: 0px -10px 10px rgba(255, 255, 255, 0.5);
+    background-image: url(../img/bg-hero.svg);
 }
 .skils__Descricao-titulo{
     color: aliceblue;
     padding-left: 1rem;
+    padding-top: 1rem;
     font-size: 3rem;
+    font-family: 'Sora', sans-serif;
+}
+.skils__Descricao-titulo-1{
+    color: #2DC7ED;
+    margin-left: 1rem;
+    margin-top: 1rem;
     font-family: 'Sora', sans-serif;
 }
 .skils__imagens{
@@ -22,8 +30,8 @@
     
 }
 .skils__imagem{
-    box-shadow: 5px 5px 10px white;
-    filter:grayscale(0.8);
+
+    filter:grayscale(0);
     transform: rotate3d(0,0,0,0deg);
     position: relative;
     /* animation: navegacao 10s infinite alternate; */
@@ -31,7 +39,8 @@
 
 .skils__imagem:hover{
     filter:grayscale(0);
-    transform:  rotate3d(0, 1, -0.1, 360deg);
+    box-shadow: inset 1px 1px 2px white,5px 5px 5px white;
+    /* transform:  rotate3d(0, 1, 0, 360deg); */
     cursor: pointer;
     transition: 0.5s all;
 }

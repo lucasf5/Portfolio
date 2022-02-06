@@ -36,7 +36,9 @@
 .Sobre__Textos-paragrafo{
     padding: 1rem;
 }
-
+.imagem-sobre{
+    width: 20vw;
+}
 
 /* redes */
 .redes{
