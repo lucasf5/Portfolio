@@ -70,11 +70,20 @@ botao_menu.addEventListener('click', () => {
 })
 
 // TECLAS
-const audio = document.querySelector('.som')
+// const audio = document.querySelector('.som')
 
-for (let i = 0; i < skils.length; i++) {
-    skils[i].addEventListener("mouseover", () => {
-        audio.play()
-    })
+// for (let i = 0; i < skils.length; i++) {
+//     skils[i].addEventListener("mouseover", () => {
+//         audio.play()
+//     })
+// }
 
-}
+// MUTE
+
+const mute = document.querySelector('.botao-volume')
+
+mute.addEventListener('click', () => {
+    mute.classList.toggle('botaoCliclado-volume')
+    if (mute.classList[1]) {
+    }
+})

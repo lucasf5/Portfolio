@@ -6,10 +6,11 @@
     gap: 1rem;
     box-shadow: 0px -10px 10px rgba(255, 255, 255, 0.5);
     background-image: url(../img/bg-hero.svg);
+    padding-bottom: 2rem;
 }
 .skils__Descricao-titulo{
     color: aliceblue;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-top: 1rem;
     font-size: 3rem;
     font-family: 'Sora', sans-serif;
@@ -38,8 +39,7 @@
 
 .skils__imagem:hover{
     filter:grayscale(0);
-    box-shadow: 5px 5px 5px #2DC7ED;
-    /* transform:  rotate3d(0, 1, 0, 360deg); */
+    box-shadow: 5px 5px 10px #2DC7ED;
     cursor: pointer;
     transition: 0.5s all;
 }
