@@ -1,5 +1,5 @@
 /* botao */
-.fundo-volume{
+.fundo-fonte{
     background: gray;
     width: 28px;
     margin-top: 1rem;
@@ -11,17 +11,17 @@
     cursor: pointer;
 
 }
-.botao-volume{
-    width: 25px;
-    height: 25px;
-    background-image: url(../img/tecnologias/volume.png);
+.botao-fonte{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/text-font.png);
     background-size: contain;
-    margin: 0 auto;
+    margin: 2px auto;
 }
-.botaoCliclado-volume{
-    background-image: url(../img/tecnologias/volume-mute.png);
+.fundo-fonte-aumentar{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/decrease-font-size.png);
     background-size: contain;
-    left: 28px;
-    transition: 1s all;
-    z-index: 1;
+    margin: 2px auto;
 }

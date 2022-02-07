@@ -28,13 +28,26 @@
     color: inherit;
     font-size: 3rem;
     margin: 1rem 0 3rem 2rem;
+    font-weight: 100;
 }
 .Sobre__Textos{
     margin-left: 3rem;
-    color: #5D5E60;
+    color: #b4b4b4;
 }
 .Sobre__Textos-paragrafo{
     padding: 1rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.Sobre__Textos-paragrafoPLUS{
+    padding: 1rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.Sobre__Textos-paragrafoMENOS{
+    padding: 1rem;
+    font-weight: 100;
+    font-size: 1rem;
 }
 .imagem-sobre{
     width: 20vw;
@@ -94,3 +107,6 @@
     transition: 3s all;
 }
 
+.fontes{
+    display: flex;
+}

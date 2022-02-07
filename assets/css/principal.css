@@ -13,6 +13,8 @@
     flex-direction: column;
     margin-left: 1rem;
     gap: 2rem;
+    font-family: 'Sora', sans-serif;
+    font-weight: 100;
 }
 .Principal__Textos-h4{
     color: #2DC7ED;
@@ -39,6 +41,8 @@
 .Principal__Informacao{
     display: flex;
     flex-direction: column;
+    font-family: 'Sora', sans-serif;
+    font-weight: 100;
 }
 .Principal__Informacao-h4{
     display: block;

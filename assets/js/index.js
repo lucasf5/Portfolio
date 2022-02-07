@@ -67,7 +67,9 @@ const menu = document.querySelector('.menu-suspenso')
 
 botao_menu.addEventListener('click', () => {
     menu.classList.toggle('displayNone')
+    botao_menu.classList.toggle('menu-botao2')
 })
+
 
 // TECLAS
 // const audio = document.querySelector('.som')
@@ -86,4 +88,23 @@ mute.addEventListener('click', () => {
     mute.classList.toggle('botaoCliclado-volume')
     if (mute.classList[1]) {
     }
+})
+
+// FONTE
+
+const fonte = document.querySelector('.botao-fonte')
+const parag = document.querySelectorAll('.Sobre__Textos-paragrafo')
+const fonteDiminuir = document.querySelector(".fundo-fonte-aumentar")
+
+fonte.addEventListener('click', () => {
+    parag.forEach((letras) => {
+        letras.classList.add('Sobre__Textos-paragrafoPLUS')
+        letras.classList.remove('Sobre__Textos-paragrafoMENOS')
+    })
+})
+fonteDiminuir.addEventListener('click', () => {
+    parag.forEach((letras) => {
+        letras.classList.remove('Sobre__Textos-paragrafoPLUS')
+        letras.classList.add('Sobre__Textos-paragrafoMENOS')
+    })
 })
