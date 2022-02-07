@@ -102,9 +102,15 @@ fonte.addEventListener('click', () => {
         letras.classList.remove('Sobre__Textos-paragrafoMENOS')
     })
 })
-fonteDiminuir.addEventListener('click', () => {
+fonteDiminuir.addEventListener('dblclick', () => {
     parag.forEach((letras) => {
         letras.classList.remove('Sobre__Textos-paragrafoPLUS')
         letras.classList.add('Sobre__Textos-paragrafoMENOS')
+    })
+})
+fonteDiminuir.addEventListener('click', () => {
+    parag.forEach((letras) => {
+        letras.classList.remove('Sobre__Textos-paragrafoPLUS')
+        letras.classList.remove('Sobre__Textos-paragrafoMENOS')
     })
 })

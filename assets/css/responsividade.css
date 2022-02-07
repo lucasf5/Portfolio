@@ -63,6 +63,12 @@
     .imagem-sobre{
         width: 100%
     }
+    .contatos{
+        display: none;
+    }
+    .redes{
+        width: 80%;
+    }
 }
 @media (max-width: 500px){
     .Principal__Textos-h3-p{

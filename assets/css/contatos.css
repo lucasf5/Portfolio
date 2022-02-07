@@ -1,0 +1,36 @@
+.Sobre-todos{
+    display: flex;
+    flex-direction: column;
+}
+.contatos{
+    position: relative;
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/Topology-1.svg) no-repeat center;
+    background-size: contain;
+}
+
+.contato{
+    position: relative;
+    width: 350px;
+    height: 80px;
+    cursor: pointer;
+    background: url(../img/contato.svg) no-repeat;
+    background-size: contain;
+    animation: movimento2 0.5s infinite;
+}
+
+@keyframes movimento2 {
+    from{
+        background: url(../img/contato.svg) no-repeat center;
+        background-size: contain;
+        
+    }
+    to{
+        background: url(../img/contatoClicado.svg) no-repeat center;
+        background-size: contain;
+    }
+}

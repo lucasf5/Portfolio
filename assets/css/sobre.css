@@ -12,6 +12,7 @@
 
     width: 100vw;
 
+    position: relative;
 
     animation: 50s para infinite linear;
 }
@@ -37,12 +38,13 @@
 .Sobre__Textos-paragrafo{
     padding: 1rem;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 .Sobre__Textos-paragrafoPLUS{
     padding: 1rem;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .Sobre__Textos-paragrafoMENOS{
     padding: 1rem;
@@ -57,6 +59,11 @@
 .redes{
     flex-grow: 1;
     padding: 2rem;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
 }
 .redes-emojis-a{
     width: 40px;
