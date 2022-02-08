@@ -98,19 +98,42 @@ const fonteDiminuir = document.querySelector(".fundo-fonte-aumentar")
 
 fonte.addEventListener('click', () => {
     parag.forEach((letras) => {
-        letras.classList.add('Sobre__Textos-paragrafoPLUS')
-        letras.classList.remove('Sobre__Textos-paragrafoMENOS')
+        letras.style.fontSize = '2.0rem'
     })
 })
 fonteDiminuir.addEventListener('dblclick', () => {
     parag.forEach((letras) => {
-        letras.classList.remove('Sobre__Textos-paragrafoPLUS')
-        letras.classList.add('Sobre__Textos-paragrafoMENOS')
+        letras.style.fontSize = '1rem'
     })
 })
 fonteDiminuir.addEventListener('click', () => {
     parag.forEach((letras) => {
-        letras.classList.remove('Sobre__Textos-paragrafoPLUS')
-        letras.classList.remove('Sobre__Textos-paragrafoMENOS')
+        letras.style.fontSize = '1.5rem'
     })
 })
+
+// animacao
+
+const sections = document.querySelectorAll(".js-scroll")
+const windowMetade = window.innerHeight * 0.7
+function initAnimacao() {
+    if (sections.length) {
+
+        function animaScroll() {
+            sections.forEach((section) => {
+                const sectionTop = section.getBoundingClientRect().top - windowMetade
+                if (sectionTop < 0) {
+                    section.classList.add('ativo')
+                } else {
+                    section.classList.remove('ativo')
+                }
+            })
+
+        }
+        animaScroll()
+
+        window.addEventListener('scroll', animaScroll)
+    }
+}
+
+initAnimacao()

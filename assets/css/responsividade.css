@@ -69,6 +69,10 @@
     .redes{
         width: 80%;
     }
+    .jobs__Partes-descricao-imagem-transform{
+        width: 100%;
+        height: 80%;
+    }
 }
 @media (max-width: 500px){
     .Principal__Textos-h3-p{
