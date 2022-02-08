@@ -21,7 +21,8 @@ li, a{
     list-style-type: none;
 }
 header{
-    background: url(../img/tecnologias/pawel-czerwinski-S2iPI7keCCc-unsplash.jpg) repeat-x;
+    background-image: url(../img/tecnologias/pawel-czerwinski-S2iPI7keCCc-unsplash.jpg);
+    background-repeat: repeat-x;
     background-size: cover;
     background-attachment: fixed;
 
