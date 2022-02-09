@@ -1,0 +1,49 @@
+/* 
+  font-family: 'Bebas Neue', sans-serif; */
+
+.modal{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+.fechar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+    padding: 0.2rem;
+    background: #2DC7ED;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.modal__texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 7rem;
+    background: rgba(0, 0, 0, 1);
+    width: 50vw;
+    height: 15vh;
+    box-shadow: 0 0 0 5px #2DC7ED;
+}
+.modal__texto p{
+    border-bottom: 4px solid #2DC7ED;
+}
+.modal__texto a{
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.foto{
+    width: 60px;
+    height: 60px;
+}

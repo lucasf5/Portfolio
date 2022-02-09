@@ -1,6 +1,7 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Saira', sans-serif;
 font-family: 'Sora', sans-serif; */
+@import './modal.css';
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
