@@ -14,14 +14,14 @@
 .botao-fonte{
     width: 20px;
     height: 20px;
-    background-image: url(../img/text-font.png);
+    background-image: url(../../img/text-font.png);
     background-size: contain;
     margin: 2px auto;
 }
 .fundo-fonte-aumentar{
     width: 20px;
     height: 20px;
-    background-image: url(../img/decrease-font-size.png);
+    background-image: url(../../img/decrease-font-size.png);
     background-size: contain;
     margin: 2px auto;
 }

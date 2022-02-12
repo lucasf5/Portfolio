@@ -1,4 +1,5 @@
 /* botao */
+@import './botaoMute.css';
 .fundo{
     background: gray;
     width: 50px;

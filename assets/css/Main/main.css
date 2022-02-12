@@ -1,0 +1,10 @@
+@import './sobre.css';
+@import './jobs.css';
+@import './skils.css';
+@import './redes.css';
+@import './contatos.css';
+/* @import './modal.css'; */
+main{
+    width: 100vw;
+    background: black;
+}

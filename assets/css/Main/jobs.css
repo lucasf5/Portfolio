@@ -6,7 +6,7 @@
     color: aliceblue;
     width: 100vw;
     background: black;
-    background-image: url(../img/bg-hero.svg);
+    background-image: url(../../img/bg-hero.svg);
     background-size: cover;
     background-repeat: repeat-x;
     /* animation: 50s para infinite linear; */
@@ -64,6 +64,6 @@
 .black{
     color: black;
     background: aliceblue;
-    background-image: url(../img/bg-hero.svg);
+    background-image: url(../../img/bg-hero.svg);
     background-size: cover;
 }

@@ -22,12 +22,10 @@ li, a{
     list-style-type: none;
 }
 header{
-    background-image: url(../img/tecnologias/pawel-czerwinski-S2iPI7keCCc-unsplash.jpg);
+    background-image: url(../../img/tecnologias/pawel-czerwinski-S2iPI7keCCc-unsplash.jpg);
     background-repeat: repeat-x;
     background-size: cover;
     background-attachment: fixed;
-
-    /* animation: 50s para infinite linear; */
     width: 100vw;
     height: 100vh;
 }
