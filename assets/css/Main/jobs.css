@@ -11,7 +11,6 @@
     background-repeat: repeat-x;
     /* animation: 50s para infinite linear; */
     box-shadow: 0px -10px 10px rgba(255, 255, 255, 0.5);
-    color: aliceblue;
 }
 .jobs__Descricao{
     border-bottom: 1px solid gray;
@@ -63,7 +62,6 @@
 }
 .black{
     color: black;
-    background: aliceblue;
-    background-image: url(../../img/bg-hero.svg);
+    background: url(../../img/bg-hero.svg), white;
     background-size: cover;
 }
