@@ -1,4 +1,5 @@
 /* JOBS */
+@import './cards.css';
 .jobs{
     display: flex;
     flex-direction: column;

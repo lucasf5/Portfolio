@@ -5,7 +5,7 @@
 
     font-family: 'Sora', sans-serif;
     color: aliceblue;
-    background: black;
+    background-color: black;
     background-image: url(../../img/svg-lines.svg);
     background-size: cover;
     background-repeat: repeat-x;
@@ -54,4 +54,14 @@
 }
 .imagem-sobre{
     width: 20vw;
+}
+.Sobre.branco{
+    color: black;
+    background-color: white;
+    background-image: url(../../img/svg-lines.svg);
+    background-size: cover;
+}
+.Sobre__Textos.branco{
+    color: #000000;
+    font-weight: bold;
 }

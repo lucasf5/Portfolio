@@ -1,0 +1,153 @@
+/* CARD */
+
+.skils__imagem{
+    width: 15.6rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color: #0f0f0f;
+
+    box-shadow: inset 6px 6px 6px #161616, inset -6px -6px 6px #000000;
+}
+
+.skils__imagem:hover{
+    box-shadow: inset 6px 6px 6px #000000, inset -6px -6px 6px #161616;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.skill__imagem--logo{
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem auto;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 100%;
+    box-shadow:  6px 6px 6px #000000, -6px -6px 6px #161616;
+}
+
+.skill__imagem--texto{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Poppins;
+    color: #2DC7ED;
+}
+
+.python{
+    background-image: url(../../img/tecnologias/python.png);
+}
+.js{
+    background-image: url(../../img/tecnologias/js.png);
+    background-size: 65%;
+}
+.css{
+    background-image: url(../../img/tecnologias/css-3.png);
+}
+.html{
+    background-image: url(../../img/tecnologias/html-5.png);
+}
+.java{
+    background-image: url(../../img/tecnologias/java.png);
+}
+.swift{
+    background-image: url(../../img/tecnologias/rapido.png);
+}
+.ruby{
+    background-image: url(../../img/tecnologias/rubi.png);
+}
+.sql{
+    background-image: url(../../img/tecnologias/mysql.png);
+}
+.figma{
+    background-image: url(../../img/tecnologias/figma.png);
+}
+.bootstrap{
+    background-image: url(../../img/tecnologias/bootstrap.png);
+}
+.react{
+    background-image: url(../../img/tecnologias/atomo.png);
+}
+.node{
+    background-image: url(../../img/tecnologias/node-js.png);
+}
+/* ESTILIZACAO DOS CARDS BASICO, INTERMEDIARIO E AVANÇADO */
+
+.skill__imagem--porcentagem-fundo{
+    width: 80%;
+    height: 1.7rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    background: #161616;
+    display: flex;
+    align-items: center;
+
+    box-shadow: inset 6px 6px 6px #161616, inset -6px -6px 6px #000000;
+}
+
+.skill__porcentagem-cor-avancado{
+    background-color: #2DC7ED;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 2rem;
+
+    box-shadow: inset 7px 7px 7px #2DC7ED, inset -7px -7px 7px #72dcf7;
+}
+.skill__porcentagem-cor-intermediario{
+    background-color: #2DC7ED;
+    width: 65%;
+    height: 1.5rem;
+    border-radius: 2rem;
+
+    box-shadow: inset 7px 7px 7px #2DC7ED, inset -7px -7px 7px #72dcf7;
+}
+.skill__porcentagem-cor-basico{
+    background-color: #2DC7ED;
+    width: 40%;
+    height: 1.5rem;
+    border-radius: 2rem;
+
+    box-shadow: inset 7px 7px 7px #2DC7ED, inset -7px -7px 7px #72dcf7;
+}
+/* -------- */
+
+/* MUDANCA DO BACKGROUND BRANCO */
+
+.skils__imagem.branco{
+    width: 15.6rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color: #ecf0f3;
+
+    box-shadow: 6px 6px 10px #cbced1, -6px -6px 10px white;
+}
+
+.skils__imagem.branco:hover{
+    box-shadow: inset 6px 6px 10px #cbced1, inset -6px -6px 10px white;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.skill__imagem--logo.branco{
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem auto;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 100%;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.skill__imagem--porcentagem-fundo.branco{
+    width: 80%;
+    height: 1.7rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    background: #cbced1;
+    display: flex;
+    align-items: center;
+
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}

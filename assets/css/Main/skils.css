@@ -6,17 +6,24 @@
     justify-content: center;
     gap: 1rem;
     box-shadow: 0px -10px 10px rgba(255, 255, 255, 0.5);
-    background: url(../../img/bg-hero.svg), white;
+    background: rgb(0, 0, 0);
     background-size: cover;
     padding-bottom: 2rem;
 }
+.skils-branco{
+    background: rgb(255, 255, 255);
+
+}
 .skils__Descricao-titulo{
-    color: #2DC7ED;
+    color: #ffffff;
     padding-left: 2rem;
     padding-top: 1rem;
     font-size: 3rem;
     font-family: 'Sora', sans-serif;
     z-index: 1;
+}
+.skils__Descricao-titulo-azul{
+    color: black;
 }
 .skils__Descricao-titulo-1{
     color: #2DC7ED;
@@ -44,112 +51,6 @@
     overflow: hidden;
 } */
 
-/* CARD */
-.skils__imagem{
-    width: 15.6rem;
-    height: 20rem;
-    border-radius: 1rem;
-    background-color: #ecf0f3;
-
-    box-shadow: 6px 6px 10px #cbced1, -6px -6px 10px white;
-}
-
-.skils__imagem:hover{
-    filter:grayscale(0);
-    box-shadow: inset 6px 6px 10px #cbced1, inset -6px -6px 10px white;
-    cursor: pointer;
-    transition: 0.5s all;
-    /* transform: rotate3d(0,1,0,360deg);  */
-}
-.skill__imagem--logo{
-    width: 8rem;
-    height: 8rem;
-    margin: 2rem auto;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    border-radius: 100%;
-    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
-}
-.python{
-    background-image: url(../../img/tecnologias/python.png);
-}
-.js{
-    background-image: url(../../img/tecnologias/js.png);
-}
-.css{
-    background-image: url(../../img/tecnologias/css-3.png);
-}
-.html{
-    background-image: url(../../img/tecnologias/html-5.png);
-}
-.java{
-    background-image: url(../../img/tecnologias/java.png);
-}
-.swift{
-    background-image: url(../../img/tecnologias/rapido.png);
-}
-.ruby{
-    background-image: url(../../img/tecnologias/rubi.png);
-}
-.sql{
-    background-image: url(../../img/tecnologias/servidor-sql.png);
-}
-.figma{
-    background-image: url(../../img/tecnologias/figma.png);
-}
-.bootstrap{
-    background-image: url(../../img/tecnologias/bootstrap.png);
-}
-.react{
-    background-image: url(../../img/tecnologias/atomo.png);
-}
-.node{
-    background-image: url(../../img/tecnologias/node-js.png);
-}
-.skill__imagem--texto{
-    font-size: 2rem;
-    text-align: center;
-    font-family: Poppins;
-    color: #2DC7ED;
-}
-.skill__imagem--porcentagem-fundo{
-    width: 80%;
-    height: 1.7rem;
-    margin: 1rem auto;
-    border-radius: 2rem;
-    background: #cbced1;
-    display: flex;
-    align-items: center;
-
-    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
-}
-.skill__porcentagem-cor-avancado{
-    background-color: #2DC7ED;
-    width: 100%;
-    height: 1.5rem;
-    border-radius: 2rem;
-
-    box-shadow: inset 7px 7px 7px #2DC7ED, inset -7px -7px 7px #72dcf7;
-}
-.skill__porcentagem-cor-intermediario{
-    background-color: #2DC7ED;
-    width: 65%;
-    height: 1.5rem;
-    border-radius: 2rem;
-
-    box-shadow: inset 7px 7px 7px #2DC7ED, inset -7px -7px 7px #72dcf7;
-}
-.skill__porcentagem-cor-basico{
-    background-color: #2DC7ED;
-    width: 40%;
-    height: 1.5rem;
-    border-radius: 2rem;
-
-    box-shadow: inset 7px 7px 7px #2DC7ED, inset -7px -7px 7px #72dcf7;
-}
-/* -------- */
 .skils__imagem-descricao{
     position: absolute;
     width: 0;
