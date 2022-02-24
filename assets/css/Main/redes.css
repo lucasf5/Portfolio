@@ -7,6 +7,7 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    justify-content: center;
 }
 .redes-emojis-a{
     width: 40px;
