@@ -15,8 +15,9 @@ const botao_menu = document.querySelector('.menu-botao')
 const menu = document.querySelector('.menu-suspenso')
 
 botao_menu.addEventListener('click', () => {
+
     menu.classList.toggle('displayNone')
-    botao_menu.classList.toggle('menu-botao2')
+    botao_menu.classList.toggle('active')
 })
 
 
@@ -75,8 +76,7 @@ if (windowmetadeAlto <= 1080) {
     windowMetade = window.innerHeight * 0.8
 }
 
-
-    function animaScroll() {
+function animaScroll() {
         sections.forEach((section) => {
             const sectionTop = section.getBoundingClientRect().top - windowMetade
             if (sectionTop < 0) {
@@ -93,7 +93,7 @@ if (windowmetadeAlto <= 1080) {
                 imagem.classList.remove('ativo')
             }
         })
-    }
+}
 
     window.addEventListener('scroll', animaScroll)
 

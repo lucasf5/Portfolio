@@ -7,5 +7,5 @@ export function loading() {
         document.getElementById("loading").style.display = "none";
     
     
-    }, 4000);
+    }, 2000);
 }
