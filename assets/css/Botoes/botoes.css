@@ -14,6 +14,7 @@
 .botao{
     background-size: contain;
     background-color: rgb(255, 255, 255);
+    background-image: url(../../img/meia-lua.png);
     border-radius: 100%;
     width: 20px;
     height: 20px;
@@ -27,6 +28,7 @@
 }
 .botaoCliclado{
     background-size: contain;
+    background-image: url(../../img/sol.png);
     left: 28px;
     transition: 1s all;
 }

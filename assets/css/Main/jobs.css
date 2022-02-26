@@ -42,6 +42,7 @@
 .jobs__Partes-descricao{
     color: inherit;
     font-size: 2rem;
+    position: relative;
 }
 .jobs__Partes-descricao-imagem{
     position: absolute;
@@ -57,7 +58,7 @@
     width: 30rem;
     height: 20rem;
     box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.5);
-    transform: scale(1.2);
+    transform: scale(1);
     transition: 1s all;
     /* right: -500px; */
 }
