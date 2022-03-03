@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
@@ -44,10 +44,10 @@
         <!-- Menu suspenso -->
         <section class="menu-suspenso displayNone">
             <li class="menu-suspenso--link">
-                <a class="" href="#home">HOME</a>
-                <a class="" href="#about">ABOUT</a>
-                <a class="" href="#works">WORKS</a>
-                <a class="" href="#TECHS">TECHS</a>
+                <a class="" aria-label="link para a tela inicial" href="#home">HOME</a>
+                <a class="" aria-label="link para a parte sobre mim no site" href="#about">ABOUT</a>
+                <a class="" aria-label="link para a parte sobre meus trabalhos" href="#works">WORKS</a>
+                <a class="" aria-label="link para a parte sobre as tecnologias que eu conheço" href="#TECHS">TECHS</a>
             </li>
         </section>
         <!-- Inicio do Cabeçalho -->
@@ -55,18 +55,18 @@
             <div class="menu-botao"></div>
             <section class="cabecalho_PrimeirosLinks">
                 <li class="cabecalho_PrimeirosLinks-li">
-                    <a class="cabecalho_PrimeirosLinks-a" href="#home">HOME</a>
-                    <a class="cabecalho_PrimeirosLinks-a" href="#about">ABOUT</a>
+                    <a class="cabecalho_PrimeirosLinks-a" aria-label="link para a tela inicial" href="#home">HOME</a>
+                    <a class="cabecalho_PrimeirosLinks-a" aria-label="link para a parte sobre mim no site" href="#about">ABOUT</a>
                 </li>
             </section>
             <section class="cabecalho_Imagens">
-                <img src="./assets/img/alfabetoL.png" alt="" />
-                <img src="./assets/img/alfabetoF.png" alt="" />
+                <img src="./assets/img/alfabetoL.png" alt="imagem da letra L" />
+                <img src="./assets/img/alfabetoF.png" alt="imagem da letra F" />
             </section>
             <section class="cabecalho_PrimeirosLinks">
                 <li class="cabecalho_PrimeirosLinks-li">
-                    <a class="cabecalho_PrimeirosLinks-a" href="#works">WORKS</a>
-                    <a class="cabecalho_PrimeirosLinks-a" href="#TECHS">TECHS</a>
+                    <a class="cabecalho_PrimeirosLinks-a" aria-label="link para a parte sobre meus trabalhos" href="#works">WORKS</a>
+                    <a class="cabecalho_PrimeirosLinks-a" aria-label="link para a parte sobre as tecnologias que eu conheço" href="#TECHS">TECHS</a>
                 </li>
             </section>
         </section>
@@ -113,11 +113,16 @@
     <!-- Inicio da Main -->
     <main>
         <section class="jobs js-scroll">
+            <!-- Inicio da seção de trabalhos -->
             <article class="jobs__Descricao" id="works">
+
+                <!-- inicio do botão darkmode -->
                 <div class="fundo">
                     <div class="botao"></div>
                 </div>
-                <div class="jobs__Descricao-titulo">
+                <!-- Fim do botão darkmode -->
+
+                <div class="jobs__Descricao-titulo" aria-label="seção de trabalhos">
                     <h4>JOBS</h4>
                 </div>
                 <div class="jobs__Descricao-descricao">
@@ -208,136 +213,141 @@
                 </div>
             </article>
         </section>
+        <!-- Fim da seção de trabalhos -->
+
+        <!-- Inicio da seção de tecnologias -->
         <section class="skils js-scroll">
             <article>
                 <div class="fundo-volume displayNone">
                     <div class="botao-volume"></div>
                 </div>
-                <div class="skils__Descricao-titulo-1" id="TECHS">
+                <div class="skils__Descricao-titulo-1" id="TECHS" aria-label="seção de tecnologias">
                     <h4>TECHS</h4>
                 </div>
                 <div class="skils__Descricao-titulo">
                     <h2>Technologies</h2>
                 </div>
             </article>
-            <article class="skils__imagens">
-                <div class="skils__imagem">
+            <article class="skils__imagens" aria-label="seção onde possui cartões relacionados as minhas tecnologias">
+                <div class="skils__imagem" aria-label="cartão relacionado ao python">
                     <div class="skill__imagem--logo python"></div>
-                    <div class="skill__imagem--texto">Python</div>
+                    <div class="skill__imagem--texto" aria-label="foto do python colocado como background do card">Python</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-avancado"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo css"></div>
-                    <div class="skill__imagem--texto">CSS</div>
+                    <div class="skill__imagem--texto" aria-label="foto do css colocado como background do card">CSS</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-avancado"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo html"></div>
-                    <div class="skill__imagem--texto">HTML</div>
+                    <div class="skill__imagem--texto" aria-label="foto do html colocado como background do card">HTML</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-avancado"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo js"></div>
-                    <div class="skill__imagem--texto">JavaScript</div>
+                    <div class="skill__imagem--texto" aria-label="foto do JavaScript colocado como background do card">JavaScript</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-intermediario"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo java"></div>
-                    <div class="skill__imagem--texto">Java</div>
+                    <div class="skill__imagem--texto" aria-label="foto do java colocado como background do card">Java</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-intermediario"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo swift"></div>
-                    <div class="skill__imagem--texto">Swift</div>
+                    <div class="skill__imagem--texto" aria-label="foto do swift colocado como background do card">Swift</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-intermediario"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo ruby"></div>
-                    <div class="skill__imagem--texto">Ruby</div>
+                    <div class="skill__imagem--texto" aria-label="foto do ruby colocado como background do card">Ruby</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-intermediario"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo sql"></div>
-                    <div class="skill__imagem--texto">SQL</div>
+                    <div class="skill__imagem--texto" aria-label="foto do SQL colocado como background do card">SQL</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-intermediario"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo figma"></div>
-                    <div class="skill__imagem--texto">Figma</div>
+                    <div class="skill__imagem--texto" aria-label="foto do figma colocado como background do card">Figma</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-intermediario"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo bootstrap"></div>
-                    <div class="skill__imagem--texto">Bootstrap</div>
+                    <div class="skill__imagem--texto" aria-label="foto do bootstrap colocado como background do card">Bootstrap</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-intermediario"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo react"></div>
-                    <div class="skill__imagem--texto">React</div>
+                    <div class="skill__imagem--texto" aria-label="foto do react colocado como background do card">React</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-basico"></div>
                     </div>
                 </div>
                 <div class="skils__imagem">
                     <div class="skill__imagem--logo node"></div>
-                    <div class="skill__imagem--texto">Node</div>
+                    <div class="skill__imagem--texto" aria-label="foto do node colocado como background do card">Node</div>
                     <div class="skill__imagem--porcentagem-fundo">
                         <div class="skill__porcentagem-cor-basico"></div>
                     </div>
                 </div>
             </article>
         </section>
+        <!-- Fim da seção de trabalhos -->
+        <!-- Inicio da seção de Sobre -->
         <section class="Sobre-todos js-scroll">
             <section class="Sobre">
                 <article class="Sobre__Descricao" id="about">
                     <article class="fontes">
-                        <div class="fundo-fonte">
+                        <div class="fundo-fonte" aria-label="aumentar o tamanho da fonte">
                             <div class="botao-fonte"></div>
                         </div>
-                        <div class="fundo-fonte">
+                        <div class="fundo-fonte" aria-label="diminuir o tamanho da fonte">
                             <div class="fundo-fonte-aumentar"></div>
                         </div>
                     </article>
-                    <div class="Sobre__Descricao-titulo">
+                    <div class="Sobre__Descricao-titulo" aria-label="seção sobre mim">
                         <h4>ABOUT</h4>
                     </div>
                     <div class="Sobre__Descricao-descricao">
                         <h2>Lucas Ferreira</h2>
                     </div>
                     <div class="Sobre__Textos">
-                        <div class="Sobre__Textos-paragrafo">
+                        <div class="Sobre__Textos-paragrafo" aria-label="primeiro paragrafo sobre mim">
                             <p>
                                 Hello, my name is Lucas, I live in Fortaleza (CE). I am a student of engineering at the Federal University of Ceará and Full Stack in training by Trybe.
                             </p>
                         </div>
-                        <div class="Sobre__Textos-paragrafo">
+                        <div class="Sobre__Textos-paragrafo" aria-label="segundo paragrafo sobre mim">
                             <p>
                                 Currently, I have knowledge in Python, Data Science,
                                 HTML5, CSS3, SASS, JavaScript, Java, Swift, Bootstrap, SQL,
                                 Git and Github.
                             </p>
                         </div>
-                        <div class="Sobre__Textos-paragrafo">
+                        <div class="Sobre__Textos-paragrafo" aria-label="terceiro paragrafo sobre mim">
                             <p>
                                 I have Frontend certifications at Alura, IOS at Ioasys Camp,
                                 Data Science and Java at Dell Lead.
@@ -350,23 +360,23 @@
                     <div class="redes-emojis">
                         <div class="redes-emojis-twitter">
                             <a class="redes-emojis-a" href="https://twitter.com/lucasfpnt"><img
-                                    src="./assets/img/twitter.png" alt="" /></a>
+                                    src="./assets/img/twitter.png" alt="icone do logo do twitter" /></a>
                         </div>
                         <div class="redes-emojis-linkedin">
                             <a class="redes-emojis-a" href="https://www.linkedin.com/in/lucasfpnt/"><img
-                                    src="./assets/img/linkedin.png" alt="" /></a>
+                                    src="./assets/img/linkedin.png" alt="icone do logo do linkedin" /></a>
                         </div>
                         <div class="redes-emojis-github">
                             <a class="redes-emojis-a" href="https://github.com/lucasf5"><img
-                                    src="./assets/img/github.png" alt="" /></a>
+                                    src="./assets/img/github.png" alt="icone do logo do github" /></a>
                         </div>
                         <div class="redes-emojis-wpp">
                             <a class="redes-emojis-a" href="https://cursos.alura.com.br/user/Lucasfpnt"><img
-                                    src="./assets/img/unnamed.png" alt="" /></a>
+                                    src="./assets/img/unnamed.png" alt="icone do logo da plataforma alura" /></a>
                         </div>
                         <div class="redes-emojis-insta">
                             <a class="redes-emojis-a" href="https://www.instagram.com/lucasf5/?hl=pt-br"><img
-                                    src="./assets/img/instagram.png" alt="" /></a>
+                                    src="./assets/img/instagram.png" alt="icone do logo do instagram" /></a>
                         </div>
                     </div>
                     <!-- <div class="contatos">
@@ -377,8 +387,10 @@
                 </article>
             </section>
         </section>
+        <!-- Fim da seção de Sobre -->
 
     </main>
+    <!-- Fim do main -->
     <!-- MODAL - INATIVO -->
     <!-- <section class="modal displayNone">
       <div class="modal__texto">
@@ -393,8 +405,8 @@
     <!-- Loading -->
     <div id="loading">
         <div>
-            <img class="letra letraL" src="./assets/img/alfabetoL.png" alt="" />
-            <img class="letra letraF" src="./assets/img/alfabetoF.png" alt="" />
+            <img class="letra letraL" src="./assets/img/alfabetoL.png" alt="imagem da letra L" />
+            <img class="letra letraF" src="./assets/img/alfabetoF.png" alt="imagem da letra F" />
         </div>
     </div>
 
