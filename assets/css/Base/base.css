@@ -48,7 +48,7 @@ header{
 .cabecalho_Imagens img{
     width: 30px;
     height: 30px;
-    animation: letra 10s 4s alternate;
+    animation: letra 10s 3.8s alternate;
 }
 @keyframes letra {
     0%{ transform: rotateY(180deg) scale(1.0);
