@@ -8,6 +8,7 @@ loading()
 botaoBackground()
 maquinaEscrever()
 animaScroll()
+transicaoImagem()
 
 // ------------------------------------------------------------------------
 

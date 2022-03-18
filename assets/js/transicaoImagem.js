@@ -17,7 +17,7 @@ export function transicaoImagem() {
     const descricao = document.querySelectorAll(".skils__imagem-descricao")
 
     for (let i = 0; i < link.length; i++) {
-        skils[i].addEventListener("click", function myScript() {
+        skils[i].addEventListener("click", () =>{
             descricao[i].classList.toggle("skils__imagem-descricao-transform")
         })
 
