@@ -16,10 +16,10 @@ export function transicaoImagem() {
     const skils = document.querySelectorAll(".skils__imagem")
     const descricao = document.querySelectorAll(".skils__imagem-descricao")
 
-    for (let i = 0; i < link.length; i++) {
-        skils[i].addEventListener("click", () =>{
-            descricao[i].classList.toggle("skils__imagem-descricao-transform")
-        })
+    // for (let i = 0; i < link.length; i++) {
+    //     skils[i].addEventListener("click", () =>{
+    //         descricao[i].classList.toggle("skils__imagem-descricao-transform")
+    //     })
 
-    }
+    // }
 }
